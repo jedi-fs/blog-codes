@@ -16,4 +16,5 @@ module ApplicationHelper
   def link_to_function(name, js, opts={})
     link_to name, '#', opts.merge({onclick: js})
   end
+  # change form master B
 end

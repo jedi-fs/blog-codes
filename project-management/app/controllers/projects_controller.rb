@@ -5,6 +5,8 @@ class ProjectsController < ApplicationController
   # GET /projects.json
   def index
     @projects = Project.all
+
+    # feature changes here
   end
 
   # GET /projects/1
